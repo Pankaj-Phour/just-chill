@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-bottle1,.App-bottle2,.App-bottle3,.App-bottle4{
+  height: 150px;
+  pointer-events: none;
+}
+body{
+  animation: App-body-background infinite 4s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    position: absolute;
+    animation: App-logo-spin infinite 1s linear;
+    transform: translate(-50%,-50%);
+  }
+  .App-bottle1,.App-bottle2,.App-bottle3,.App-bottle4 {
+    position: absolute;
+    animation: App-bottle-turn infinite 1s linear;
+    transform: translate(-50%,-50%);
+    top: 5%;
+    left: 5%;
+  }
+  .App-bottle2{
+    top: 5%;
+    left: 80%;
+    animation: App-bottle-turn infinite 1s linear;
+  }
+  .App-bottle3{
+    top: 80%;
+    left: 5%;
+    animation: App-bottle-turn infinite 1s linear;
+  }
+  .App-bottle4{
+    top: 80%;
+    left: 80%;
+    animation: App-bottle-turn infinite 1s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  animation: App-body-background infinite 1s linear;
+}
+p{
+  animation: App-heading-zoom infinite 4s linear;
+}
+.music{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 2%;
+  right: -30%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+    left: -8%;
+    top:-3%;
+  }
+  25% {
+    transform: rotate(360deg);
+    left: -8%;
+    top: 64%;
+  }
+  50% {
+    transform: rotate(0deg);
+    left: 67%;
+    top: 64%;
+  }
+  75% {
+    transform: rotate(360deg);
+    left: 67%;
+    top: -3%;
+  }
+  100%{
+    transform: rotate(0deg);
+    left: -8%;
+    top: -3%;
+
+  }
+}
+
+  @keyframes App-heading-zoom {
+    0% {
+      color: #cadf10;
+      transform: scale(1);
+    }
+    25% {
+      color: #d43810;
+      transform: scale(2);
+    }
+    50% {
+      color: #0de01f;
+      transform: scale(1);
+    }
+    75% {
+      color: #220ed1;
+      transform: scale(2);
+    }
+    100% {
+      color: #d31289;
+      transform: scale(1);
+    }
+  }
+
+
+  @keyframes App-body-background {
+    0% {
+      background: #cadf10;
+    }
+    25% {
+      background: #d43810;
+    }
+    50% {
+      background: #0de01f;
+    }
+    75% {
+      background: #220ed1;
+    }
+    100% {
+      background: #d31289;
+    }
+  }
+
+  @keyframes App-bottle-turn {
+    0%{
+      transform: scaleX(1);
+    }
+    100%{
+      transform: scaleX(-1);
+    }
+  }
+
