@@ -1,9 +1,6 @@
 .App {
   text-align: center;
-<<<<<<< Updated upstream
-=======
   position: relative;
->>>>>>> Stashed changes
 }
 
 .App-logo {
@@ -14,14 +11,11 @@
   height: 150px;
   pointer-events: none;
 }
-<<<<<<< Updated upstream
-=======
 
 .App-dancinggirl1,.App-dancinggirl2,.App-dancinggirl3,.App-dancinggirl4{
   height: 150px;
   pointer-events: none;
 }
->>>>>>> Stashed changes
 body{
   animation: App-body-background infinite 4s linear;
 }
@@ -29,11 +23,7 @@ body{
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     position: absolute;
-<<<<<<< Updated upstream
-    animation: App-logo-spin infinite 1s linear;
-=======
     animation: App-logo-spin infinite 3s linear;
->>>>>>> Stashed changes
     transform: translate(-50%,-50%);
   }
   .App-bottle1,.App-bottle2,.App-bottle3,.App-bottle4 {
@@ -43,12 +33,6 @@ body{
     top: 5%;
     left: 5%;
   }
-<<<<<<< Updated upstream
-  .App-bottle2{
-    top: 5%;
-    left: 80%;
-    animation: App-bottle-turn infinite 1s linear;
-=======
   .App-dancinggirl1,.App-dancinggirl2,.App-dancinggirl3,.App-dancinggirl4 {
     position: absolute;
     /* animation: App-bottle-turn infinite 4s linear; */
@@ -60,23 +44,15 @@ body{
     top: 5%;
     left: 80%;
     animation: App-bottle-turn infinite 4s linear;
->>>>>>> Stashed changes
   }
   .App-bottle3{
     top: 80%;
     left: 5%;
-<<<<<<< Updated upstream
-    animation: App-bottle-turn infinite 1s linear;
-=======
     animation: App-bottle-turn infinite 4s linear;
->>>>>>> Stashed changes
   }
   .App-bottle4{
     top: 80%;
     left: 80%;
-<<<<<<< Updated upstream
-    animation: App-bottle-turn infinite 1s linear;
-=======
     animation: App-bottle-turn infinite 4s linear;
   }
   .App-dancinggirl2{
@@ -93,7 +69,6 @@ body{
     top: 70%;
     left: 70%;
     /* animation: App-bottle-turn infinite 4s linear; */
->>>>>>> Stashed changes
   }
 }
 
@@ -114,14 +89,9 @@ p{
 .music{
   position: absolute;
   transform: translate(-50%,-50%);
-<<<<<<< Updated upstream
-  top: 2%;
-  right: -30%;
-=======
   top: 50%;
   left: 50%;
   z-index: 1000;
->>>>>>> Stashed changes
 }
 
 .App-link {
@@ -131,48 +101,27 @@ p{
 @keyframes App-logo-spin {
   0% {
     transform: rotate(0deg);
-<<<<<<< Updated upstream
-    left: -8%;
-=======
     left: 32%;
->>>>>>> Stashed changes
     top:-3%;
   }
   25% {
     transform: rotate(360deg);
     left: -8%;
-<<<<<<< Updated upstream
-    top: 64%;
-  }
-  50% {
-    transform: rotate(0deg);
-    left: 67%;
-=======
     top: 32%;
   }
   50% {
     transform: rotate(0deg);
     left: 32%;
->>>>>>> Stashed changes
     top: 64%;
   }
   75% {
     transform: rotate(360deg);
-<<<<<<< Updated upstream
-    left: 67%;
-    top: -3%;
-  }
-  100%{
-    transform: rotate(0deg);
-    left: -8%;
-=======
     left: 75%;
     top: 32%;
   }
   100%{
     transform: rotate(0deg);
     left: 32%;
->>>>>>> Stashed changes
     top: -3%;
 
   }
