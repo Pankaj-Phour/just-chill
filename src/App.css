@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -10,6 +11,11 @@
   height: 150px;
   pointer-events: none;
 }
+
+.App-dancinggirl1,.App-dancinggirl2,.App-dancinggirl3,.App-dancinggirl4{
+  height: 150px;
+  pointer-events: none;
+}
 body{
   animation: App-body-background infinite 4s linear;
 }
@@ -17,7 +23,7 @@ body{
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     position: absolute;
-    animation: App-logo-spin infinite 1s linear;
+    animation: App-logo-spin infinite 3s linear;
     transform: translate(-50%,-50%);
   }
   .App-bottle1,.App-bottle2,.App-bottle3,.App-bottle4 {
@@ -27,20 +33,42 @@ body{
     top: 5%;
     left: 5%;
   }
+  .App-dancinggirl1,.App-dancinggirl2,.App-dancinggirl3,.App-dancinggirl4 {
+    position: absolute;
+    /* animation: App-bottle-turn infinite 4s linear; */
+    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 20%;
+  }
   .App-bottle2{
     top: 5%;
     left: 80%;
-    animation: App-bottle-turn infinite 1s linear;
+    animation: App-bottle-turn infinite 4s linear;
   }
   .App-bottle3{
     top: 80%;
     left: 5%;
-    animation: App-bottle-turn infinite 1s linear;
+    animation: App-bottle-turn infinite 4s linear;
   }
   .App-bottle4{
     top: 80%;
     left: 80%;
-    animation: App-bottle-turn infinite 1s linear;
+    animation: App-bottle-turn infinite 4s linear;
+  }
+  .App-dancinggirl2{
+    top: 20%;
+    left: 70%;
+    /* animation: App-bottle-turn infinite 4s linear; */
+  }
+  .App-dancinggirl3{
+    top: 70%;
+    left: 20%;
+    /* animation: App-bottle-turn infinite 4s linear; */
+  }
+  .App-dancinggirl4{
+    top: 70%;
+    left: 70%;
+    /* animation: App-bottle-turn infinite 4s linear; */
   }
 }
 
@@ -61,8 +89,9 @@ p{
 .music{
   position: absolute;
   transform: translate(-50%,-50%);
-  top: 2%;
-  right: -30%;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
 }
 
 .App-link {
@@ -72,27 +101,27 @@ p{
 @keyframes App-logo-spin {
   0% {
     transform: rotate(0deg);
-    left: -8%;
+    left: 32%;
     top:-3%;
   }
   25% {
     transform: rotate(360deg);
     left: -8%;
-    top: 64%;
+    top: 32%;
   }
   50% {
     transform: rotate(0deg);
-    left: 67%;
+    left: 32%;
     top: 64%;
   }
   75% {
     transform: rotate(360deg);
-    left: 67%;
-    top: -3%;
+    left: 75%;
+    top: 32%;
   }
   100%{
     transform: rotate(0deg);
-    left: -8%;
+    left: 32%;
     top: -3%;
 
   }
