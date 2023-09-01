@@ -68,7 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Setting PORT
-By default when you start your react app with 'npm start' command, your application runs on port 3000. But if you have another application running on port 3000 then you can chnage the default port for your application. For this just go to package.json and change the start command in scripts section.
-By default this command is 'react-scripts start'. You have to specify your port here and change the command to 'set PORT=5 && react-scripts start'. You can set whatever port (from 1 to 66535) you want to run your application on.
