@@ -1,0 +1,32 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.navLogo{
+    font-size: 25px;
+    color: green;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+.navItem{
+    font-size: 19px;
+    color: greenyellow;
+    font-family: 'roboto';
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+.navItem:hover{
+    border-bottom: 2px solid greenyellow;
+    transform:translateY(-3px);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.links{
+    text-decoration: none;
+    color: greenyellow;
+}
